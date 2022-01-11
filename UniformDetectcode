@@ -1,0 +1,13 @@
+from google.colab import drive
+drive.mount('/content/drive')
+pip install tensorflow==2.4.0
+pip install keras==2.4.3 numpy==1.19.3 pillow==7.0.0 scipy==1.4.1 h5py==2.10.0 opencv-pythonkeras-resnet==0.2.0
+pip install imageai --upgrade
+!wget https://github.com/OlafenwaMoses/ImageAI/releases/download/essential-v4/pretrained-yolov3.h5
+from imageai.Detection.Custom import DetectionModelTrainer
+
+trainer=DetectionModelTrainer()
+trainer.setModelTypeAsYOLOv3()
+trainer.setDataDirectory(data_directory="/content/drive/MyDrive/Uniform Detection/uniform")
+trainer.setTrainConfig(object_names_array=["coat","shirt","tie","pant"],batch_size=4,num_experiments=20,train_from_pretrained_model="pretrained-yolov3.h5")
+trainer.trainModel()
