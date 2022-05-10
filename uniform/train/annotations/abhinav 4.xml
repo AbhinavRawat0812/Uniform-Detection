@@ -1,0 +1,50 @@
+<annotation>
+	<folder>image</folder>
+	<filename>abhinav 4.jpg</filename>
+	<path>C:\Users\ujjwa\OneDrive\Desktop\project\train\image\abhinav 4.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>867</width>
+		<height>1156</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pant</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>369</xmin>
+			<ymin>459</ymin>
+			<xmax>529</xmax>
+			<ymax>748</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blazer</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>355</xmin>
+			<ymin>231</ymin>
+			<xmax>548</xmax>
+			<ymax>509</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>tie</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>419</xmin>
+			<ymin>239</ymin>
+			<xmax>460</xmax>
+			<ymax>363</ymax>
+		</bndbox>
+	</object>
+</annotation>

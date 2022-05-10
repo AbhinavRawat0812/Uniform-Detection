@@ -1,0 +1,38 @@
+<annotation>
+	<folder>images</folder>
+	<filename>WhatsApp Image 2021-12-21 at 4.24.03 PM (1).jpg</filename>
+	<path>C:\Users\ujjwa\OneDrive\Desktop\project\validation\images\WhatsApp Image 2021-12-21 at 4.24.03 PM (1).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>864</width>
+		<height>1152</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pant</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>395</xmin>
+			<ymin>719</ymin>
+			<xmax>543</xmax>
+			<ymax>1052</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>blazer</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>296</xmin>
+			<ymin>314</ymin>
+			<xmax>593</xmax>
+			<ymax>750</ymax>
+		</bndbox>
+	</object>
+</annotation>
